@@ -15,5 +15,5 @@ setup(
     author_email="taikedo@protonmail.com",
     url="https://github.com/taikedo/lazytube",
     license=license,
-    packages=find_packages
+    packages=find_packages()
 )
