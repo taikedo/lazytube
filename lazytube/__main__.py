@@ -1,3 +1,3 @@
 from . import parser
 
-print(parser.parsefile("data/example.txt"))
+slides = parser.parsefile("data/example.txt")
