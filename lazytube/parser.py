@@ -30,5 +30,3 @@ for slide in slidedata:
     slide.append("path")
     slide.append(0)
     slides.append(slide)
-
-print(slides)
