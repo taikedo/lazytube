@@ -15,5 +15,8 @@ setup(
     author_email="taikedo@protonmail.com",
     url="https://github.com/taikedo/lazytube",
     license=license,
+    install_requires=[
+        "Pillow"
+    ],
     packages=find_packages()
 )
