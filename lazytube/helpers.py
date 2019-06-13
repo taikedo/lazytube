@@ -5,3 +5,7 @@ def txttolist(filename):
 def isstrlessthan(string, length):
     """Checks if string is below length"""
     return len(string) < length
+
+def errormsg(e):
+    """Generates an error message as a string"""
+    return "ERROR: " + str(e)
