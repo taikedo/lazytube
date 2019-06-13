@@ -30,7 +30,7 @@ def listtoslides(data):
     for slide in data:
         slide = slide[:2]
         slide[0] = slide[0][:25]
-        slide[1] = slide[1][:140]
+        slide[1] = slide[1][:180]
         slide.append("imgpath")
         slide.append(0)
         slides.append(slide)
