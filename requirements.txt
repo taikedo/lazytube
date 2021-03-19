@@ -1,2 +1,2 @@
 lazytube
-Pillow==6.0.0
+Pillow==8.1.1
